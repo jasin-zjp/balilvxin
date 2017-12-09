@@ -1,0 +1,175 @@
+			*{
+				margin:0;
+				padding: 0;
+			}
+			ul{
+				list-style: none;
+			}
+			.daohan {
+				width: 1349px;
+				height: 140px;
+				background:  transparent;
+				/*opacity: .4;*/
+				position: absolute;
+				
+				z-index: 2;
+			}
+			.daohan>ul>li:hover {
+				cursor: pointer;
+				filter: brightness(70%);/*亮度，显示度*/
+				transition: 1.5s;   /*动画过度*/
+			}
+			.nav {
+				position: absolute;
+				left: 500px;
+				top: 60px;
+			}
+			
+			.nav>li {
+				text-align: center;
+				color: oldlace;
+				float: left;
+				height: 20px;
+				width: 80px;
+				margin-left: 30px;
+				font-size: 20px;
+				font-family: "楷体";
+				text-align: center;   /*文本对齐*/
+				line-height: 80px;/*垂直居中*/
+				z-index: 3;
+			}
+			.pTop{
+				width: 150px;
+				height: 60px;
+				font-size: 40px;
+				color: oldlace;
+				font-family: "宋体";
+				cursor: pointer;
+				position: absolute;
+				top: 20px;
+				left: 630px;
+			}
+			.beitu {
+				width: 1349px;
+				height: 720px;
+				background: wheat url(../img/cc3.jpg)/*no-repeat 0 -220px*/;
+				background-size: 100%; /**/
+				position: relative;
+				/*filter: brightness(70%);*/
+				/*animation: callbig .05s linear;*//**/
+				opacity: .8;
+			}
+			/*.beitu:hover #p1,.beitu:hover #p2{
+				display: block;
+				transition:width 1.5s;
+			}*/
+			
+			#p1 {
+				font-size: 70px;
+				color: white;
+				position: absolute;
+				top: 220px;
+				left: 350px;
+				/*filter: brightness(150%);*/
+				/*display: none;*/
+				/*transition-duration: 1.5s;*/
+			}
+			#p2{
+				font-size: 20px;
+				color: white;
+				position: absolute;
+				top: 330px;
+				left: 600px;
+				/*filter: brightness(150%);*/
+				/*display: none;*/
+			}
+			.box{
+				position: relative
+			}
+			.box1{
+				width: 550px;
+				height: 400px;
+				background: url(../img/hero_1.jpeg);
+				background-position-x: -240px;
+				margin-top: 100px;
+				margin-left: 60px;
+			}
+			#p3{
+				position: absolute;
+				top: 0px;
+				left: 700px;
+				font-size: 30px;
+				color: oldlace;
+				font-family: "宋体";
+			}
+			#p4{
+				width: 550px;
+				height: 400px;
+				position: absolute;
+				top: 60px;
+				left: 700px;
+				font-size:23px;
+				color: dimgray;
+				font-family: "楷体";
+			}
+			#boxg{
+				height: 400px;
+				position: relative;
+			}
+			#p5{
+				position: absolute;
+				top: 180px;
+				left: 100px;
+				font-size: 30px;
+				color: oldlace;
+				font-family: "新宋体";
+			}
+			#p6{
+				width: 600px;
+				height: 300px;
+				font-size:24px;
+				font-family: "楷体";
+				color: dimgray;
+				position: absolute;
+				top: 250px;
+				left: 100px;
+			}
+			#boxc{
+				height: 800px;
+			}
+			#boxc img{
+				width: 255px;
+				height: 170px;
+			}
+			#boxc div{
+				float: left;
+				margin-left: 50px;
+			}
+			#boxc #caidan1,#caidan3{
+				margin-top: 130px;
+			}
+			#boxc #caidan2,#caidan4{
+				margin-top: 300px;
+			}
+			#boxcz{
+				margin-left: 50px;
+			}
+			#boxcz p{
+				width: 250px;
+				font-size:20px;
+				font-family: "仿宋";
+				color: dimgray;
+			}
+			#boxcz h3{
+				font-family: "新宋体";
+				color:   blanchedalmond;
+				margin-top: 40px;
+				margin-left: 40px;
+				margin-bottom: 20px;
+			}
+			#boxcz span{
+				font-family: "mv boli";
+				font-size:40px;
+				color:   white;
+				margin-left: 40px;
+			}

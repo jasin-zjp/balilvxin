@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		 <style>  
+        .circle {  
+            width: 50px;  
+            height: 50px;  
+            position: absolute;  
+            background: red;  
+            border-radius: 50%;  
+            top: 25%;  
+        }  
+          
+        .end {  
+            width: 50px;  
+            height: 50px;  
+            position: absolute;  
+            background: blue;  
+            border-radius: 50%;  
+            top: 5%;  
+            left: 60%;  
+        }  
+    </style>  
+	</head>
+
+	<body>
+		<div style="height: 1000px;"></div>
+		<div class="circle"></div>  
+    	<div class="circle" style="left:10%;"></div>  
+    	<div class="end">我的购物车</div> 
+    <script src="http://code.jquery.com/jquery-1.8.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script src="js/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>-->
+    <script src="js/jquery.fly.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    	var offset = $('.end').offset(); //获取右侧购物车距离网页顶部的距离 
+		$('.circle').click(function (event) {  
+			console.log(event.pageX)
+		    var thisItem = $(this);  //获取当前点击元素
+		    var flyer = thisItem.clone(); //克隆当前点击元素
+		    flyer.fly({ //飞行函数 
+		        start: {  
+		            left: event.pageX-25,  //商品起始横坐标
+		            top: event.pageY-25 //商品起始纵坐标
+		        },  
+		        end: {  
+		            left: offset.left +25,  //商品结束横坐标等于右侧购物车距离网页左侧的距离+10
+		            top: offset.top +25,  //商品结束横坐标等于右侧购物车距离等于右侧购物车距离网页顶部的距离+10
+		            width: 0,  //宽高清0，使其消失
+		            height: 0  
+		        },  
+		        onEnd: function () {  //商品飞到购物车处后的回调函数
+		            $('.end').css({  
+		                background: 'red'  
+		            });  
+		            setTimeout(function () {  
+		                $('.end').css({  
+		                    background: 'blue'  
+		                });  
+		            }, 200);  
+		        }  ,
+		       
+		    });  
+		});  
+    </script>
+	</body>
+</html>

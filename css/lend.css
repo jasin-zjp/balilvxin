@@ -1,0 +1,325 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.boos{
+				width: 100%;
+				/*border: 1px solid red;*/
+			}
+			.bietup{
+				height:420px ;
+				background:url(../img/register.jpg);
+				background-position-y:-300px ;
+				filter: brightness(80%);
+			}
+			.daoha{
+				width: 1349px;
+				height: 100px;
+				position: fixed;
+				top: -100px;
+				/*background: #BFBFBF;*/
+				/*display: none;*/
+				opacity: .9;
+				z-index: 999;
+			}
+			.daoha li{
+				color: oldlace;
+				font-size: 13px;
+				list-style: none;
+				float: left;
+				margin-left: 40px;
+				cursor: pointer;
+			}
+			.daohan{
+				width:100% ;
+				height: 100px;
+				position: absolute;
+				top: 0px;
+				
+			}
+			.yubiao img{
+				width: 160px;
+				height: 65px;
+			}
+			.yubiao{
+				position: relative;
+				left: 60px;
+				top: 30px;
+			}
+			.daohan li{
+				color: oldlace;
+				font-size: 13px;
+				list-style: none;
+				float: left;
+				margin-left: 40px;
+				cursor: pointer;
+			}
+			.ulli,.yubiao,.zhuce{
+				display: inline-block;
+			}
+			.ulli>ul>li:hover {
+				filter: brightness(70%);/*亮度，显示度*/
+				transition: 1.5s;  
+				/*text-decoration: underline;*/
+			}
+			.ulli{
+				/*margin-left: 350px;*/
+				/*margin-top: 60px;*/
+				position: relative;
+				top: 10px;
+				left: 180px;
+			}
+			.zhuce{
+				color: oldlace;
+				position: absolute;
+				right: 60px;
+				top: 40px;
+				cursor: pointer;
+			}
+			.zi{
+				font-family: "微软雅黑";
+				font-size: 28px;
+				color: #FFFFFF;
+				filter: brightness(90%);
+			}
+			.zix{
+				font-family:arial;
+				font-size: 22px;
+				color: #FFFFFF;
+				margin-top: 20px;
+				margin-left: 20px;
+				filter: brightness(90%);
+			}
+			
+			.tozhaoq{
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 190px;
+				left: 610px;
+			}
+			.biaodie{
+				height:570px ;
+				/*box-sizing: border-box;*/
+			}
+			.biaozhon{
+				width: 510px;
+				margin: 80px auto;
+				font-family: "微软雅黑";
+				font-size: 14px;
+				color: rgb(102,102,102);
+			}
+			.honsi{
+				color: #E04F67;
+			}
+			.biao{
+				position: relative;
+				width: 510px;
+				height: 300px;
+				border: 1px solid  #DBDBDB;
+				border-radius: 10px;
+				margin-bottom: 20px;
+				overflow: hidden;
+			}
+			.biao p{
+				margin-left: 20px;
+				color: #E04F67;
+			}
+			.biao div{
+				display: inline-block;
+				
+				margin-top: 40px;
+			}
+			.biao .zitidi{
+				margin-left: 50px;
+				font-size: 10px;
+			}
+			.biao .inpudi{
+				/*margin-right: 10px;*/
+				position: absolute;
+				right: 40px;
+			}
+			.biao span{
+				color: red;
+			}
+			.biao .inputt{
+				width: 300px;
+				height: 30px;
+				background: #F7F7F7;
+				border: none;
+				border: 1px solid #A9A9A9;
+				border-radius: 5px;
+			}
+			.tonyixieyi{
+				position: absolute;
+				left: -10px;
+				top: 150px;
+				/*height: 50px;*/
+				width: 1000px;
+				border: 1px solid #E2E2E2;
+			}
+			.tonyixieyi label{
+				margin-left: 50px;
+				font-size: 15px;
+				color: #8E8E8E;
+			}
+			/*#gouxuan{
+				position: relative;
+				top: 3px;
+				width: 15px;
+				height: 15px;
+				margin-top: 10px;
+				margin-right: 40px;
+			}*/
+			#zhuce{
+				position: absolute;
+				top: 210px;
+				left: 100px;
+				width: 50px;
+				height: 30px;
+				border: none;
+				outline: none;
+				cursor: pointer;
+				/*border: 1px solid #F7F7F7;*/
+				background:#E04F67;
+				color: white;
+				border-radius: 5px;
+				
+			}
+			#yiwen{
+				position: absolute;
+				top: 210px;
+				left: 40px;
+				width: 50px;
+				height: 30px;
+				border: none;
+				outline: none;
+				cursor: pointer;
+				background:white;
+				border: 1px solid #E04F67;
+				color: #E04F67;
+				border-radius: 5px;
+			}
+			#disan{
+				position: absolute;
+				top: 260px;
+				left: 30px;
+				/*width: 200px;*/
+				/*height: 30px;*/
+			}
+			.yuanuan{
+				display: inline-block;
+				width: 26px;
+				height: 26px;
+				border-radius: 50%;
+				/*border: 1px solid black;*/
+				
+			}
+			#yuan11{
+				position: absolute;
+				top: 220px;
+				left: 150px;
+				background: url(../img/weibatu.png);
+				background-position-x: -1px;
+				background-position-y: -68px;
+				cursor: pointer;
+			}
+			#yuan22{
+				position: absolute;
+				top: 220px;
+				left: 190px;
+				background: url(../img/weibatu.png);
+				background-position-x: -67px;
+				background-position-y: -68px;
+				cursor: pointer;
+			}
+			
+			
+			
+			.biaozhon span{
+				/*display:inline-block;*/
+				line-height:1.8;
+			}
+			.weiba{
+				height: 250px;
+				position: relative;
+			}
+			.weiba .weibawai1,.weibawai2,.weibawai3,.weibawai4,.weibawai5{
+				width: 170px;
+				height: 200px;
+				display: inline-block;
+			}
+			.weibawai1{
+				position: absolute;
+				top: 50px;
+				left: 200px;
+			}
+			.weibawai2{
+				position: absolute;
+				top: 50px;
+				left: 400px;
+			}
+			.weibawai3{
+				position: absolute;
+				top: 50px;
+				left: 600px;
+			}
+			.weibawai4{
+				position: absolute;
+				top: 50px;
+				left: 800px;
+			}
+			.weibawai5{
+				position: absolute;
+				top: 50px;
+				left: 1000px;
+			}
+			.we1{
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				background:url(../img/weibatu.png);
+				background-position-x: -128px;  
+			}
+			.we2{
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				background:url(../img/weibatu.png);
+				background-position-x: -256px;  
+			}
+			.we3{
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				background:url(../img/weibatu.png);
+				background-position-x: -320px;  
+			}
+			.we4{
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				background:url(../img/weibatu.png);
+				background-position-x: -160px;  
+			}
+			.weitudie li{
+				list-style: none;
+				float: left;
+				margin-left: 10px;
+			}
+			.huidin{
+				color: white;
+				font-family: "courier new";
+				font-size: 40px;
+				text-align: center;
+				/*text-decoration: underline;*/
+				background:  #808080;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				cursor: pointer;
+				position: fixed;
+				right: 25px;
+				bottom: 30px;
+				display: none;
+			}
