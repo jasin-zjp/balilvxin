@@ -1,6 +1,6 @@
 				//
 			$('.ulli ul li').eq(0).click(function(){
-				location.href = 'shouyew.html'
+				location.href = 'hpagew.html'
 			})
 			$('.ulli ul li').eq(1).click(function(){
 				location.href = 'rimen.html'
